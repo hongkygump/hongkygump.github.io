@@ -1,42 +1,25 @@
 ---
 layout: page
+title: "XTSSH"
 description: "SSH SFTP Lite Tool"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-	<a href="{{ post.url | prepend: site.baseurl }}">
-		<h2 class="post-title">
-			{{ post.title }}
-		</h2>
-		{% if post.subtitle %}
-		<h3 class="post-subtitle">
-			{{ post.subtitle }}
-		</h3>
-		{% endif %}
-		<div class="post-content-preview">
-			{{ post.content | strip_html | truncate:200 }}
-		</div>
-	</a>
-	<p class="post-meta">
-		Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-	</p>
-</div>
-<hr>
-{% endfor %}
+<div class="zh post-container">
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-	{% if paginator.previous_page %}
-	<li class="previous">
-		<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-	</li>
-	{% endif %}
-	{% if paginator.next_page %}
-	<li class="next">
-		<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-	</li>
-	{% endif %}
-</ul>
-{% endif %}
+<p>XTSSH is a lite tool for SSH/SFTP</p>
+	<p>This is not commercial software. It's totally free. </p>
+	<p>I just want to make it lightweight and easy to use software:<br>
+	1. only support SSH SHELL with xterm<br>
+	2. only support SFTP transfer with ONE thread ONE session<br>
+	3. UNICODE support<br>
+	</p>
+	<p>Oops, I do not want to say somthing more, just try!</p>
+	<p>Any bug feed please contact me <span style='color:blue'>hongky@hotmail.com</span></p>
+	<p>Using Library<br>";
+	1. <a href='https://www.sencha.com' target="_blank">EXTJS(Sencha) v4.2.1</a><br>
+	2. <a href='https://www.libssh2.org' target="_blank">LIBSSH2 v1.9.0</a><br>
+	3. <a href='http://www.miniblink.net' target="_blank">Miniblink v20191225</a><br>
+	3. <a href='https://xtermjs.org' target="_blank">XTERM.JS</a><br>
+
+</div>
+
