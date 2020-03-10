@@ -59,32 +59,32 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 # Gitalk
-gitalk:
-  enable: true    # 是否开启Gitalk评论
-  clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
-  clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
-  repo: RainbomSea.github.io    #仓库名称
-  owner: RainbomSea    # github用户名
-  admin: RainbomSea
-  distractionFreeMode: true # 是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: true    # 是否开启Gitalk评论
+#  clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
+#  clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
+#  repo: RainbomSea.github.io    #仓库名称
+#  owner: RainbomSea    # github用户名
+#  admin: RainbomSea
+#  distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 
 
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 9acee03023ad0c6c993dd86df81e2ac8
+#ba_track_id: 9acee03023ad0c6c993dd86df81e2ac8
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+#featured-tags: true                     # 是否使用首页标签
+#featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
+#chrome-tab-theme-color: "#000000"
+#service-worker: true
 
 
 
