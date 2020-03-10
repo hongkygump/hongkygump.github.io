@@ -1,26 +1,20 @@
 ---
 layout:     post
-title:      Tensorflow 编程概念
-subtitle:   谷歌机器学习速成课程之Tensorflow 编程概念
-date:       2019-05-08
-author:     RainbomSea
+title:      XTSSH v1.0.2
+subtitle:   Nothing
+date:       2020-01-27
+author:     Hongky
 header-img: img/post-web.jpg
 catalog: true
-tags:
-    - 机器学习
-    - 谷歌机器学习快速课程
 ---
 
-> 仓库代码: [Tensorflow 编程概念](https://github.com/RainbomSea/Jupyter-Notebook/blob/master/%E8%B0%B7%E6%AD%8C%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%80%9F%E6%88%90%E8%AF%BE%E7%A8%8B/TensorFlow%20%E7%BC%96%E7%A8%8B%E6%A6%82%E5%BF%B5.ipynb)
+> 仓库代码: [XTSSH](https://github.com/hongkygump/)
 
-**学习目标**:
+**v1.0.2**:
 
-* 学习 TensorFlow 编程模型的基础知识，重点了解以下概念：
-  * 张量
-  * 指令
-  * 图
-  * 会话
-* 构建一个简单的 TensorFlow 程序，使用该程序绘制一个默认图并创建一个运行该图的会话
+* only support SSH SHELL with xterm
+* only support SFTP transfer with ONE thread ONE session
+* no need installation, green software
 
 **注意：**请仔细阅读本教程。TensorFlow 编程模型很可能与您遇到的其他模型不同，因此可能不如您期望的那样直观。
 
